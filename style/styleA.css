@@ -1,0 +1,71 @@
+.navbar{
+    border: 0.1px solid black;
+    padding: 20px;
+    background-color: black;
+     height: 30px;
+    text-align: right;
+    
+
+}
+.nav{ padding: 50px;
+    margin-top: 100px;
+    color: white;
+    text-decoration: none;
+    
+}
+.nav-key{ 
+    margin-top: 10px;
+    
+
+}
+ .mainimg{
+    height: 750px;
+    width: 1500px;
+}
+.box{
+    
+    display: flex;
+}
+.mission{
+    
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+    margin-top: 150px;
+    margin-left: 100px;
+
+}
+.img{
+    height: 500px;
+    width: 900px;
+    margin-left: 150px;
+}
+
+.photo{
+    margin-top: 20px;
+    display: flex;
+}
+.team{
+    padding: 50px;
+}
+
+.font{
+    font-size: 20px;
+}
+.logo1{
+    height: 50px;
+    width: 50px;
+    margin-right: 400px;
+  }
+  .footer{
+    border: solid 0.1px black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color:white;
+    border-radius: 20px;
+
+    
+  }

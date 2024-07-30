@@ -1,0 +1,92 @@
+.nowbar{
+  border:1px solid black;
+  height: 50px;
+  color: white;
+  padding-top: 10px;
+  background-color: black ;
+   
+
+}
+
+.home{
+  
+   
+color: white;
+  padding: 80px;
+  font-size: xx-large;
+  text-decoration: none;
+  
+}  
+
+.aboutus{
+  border: 1px solid black;
+  height: 400px;
+  width:100%;
+  background-color: rgb(13, 12, 12);
+  border-radius: 20px;
+color: white;
+font-size: x-large;
+text-align: center;
+}
+.aboutus:hover{
+  transform: scale(0.9);
+}
+.story{
+  border: 1px solid rgb(35, 6, 6);
+  height: 400px;
+  width:100%;
+  background-color: rgb(10, 10, 35);
+  border-radius: 20px;
+color: white;
+font-size: x-large;
+text-align: center;
+}
+.story:hover{
+  transform: scale(0.9);
+}
+
+.phillosophy{
+  border: 1px solid black;
+  height: 400px;
+  width:100%;
+  background-color: rgb(13, 12, 12);
+  border-radius: 20px;
+color: white;
+font-size: x-large;
+text-align: center;
+
+}
+.phillosophy:hover{
+  transform: scale(0.9);
+}
+.connect{
+  border: 1px solid rgb(35, 6, 6);
+  height: 400px;
+  width:100%;
+  background-color: rgb(10, 10, 35);
+  border-radius: 20px;
+color: white;
+font-size: x-large;
+text-align: center;
+
+}
+.connect:hover{
+  transform: scale(0.9);
+}
+  
+  
+  
+  .footer{
+  height: auto;
+  width: 100%;
+  background-color: black;
+  border-radius: 20px;
+}
+.color{
+  color:white
+}
+.info{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center
+}

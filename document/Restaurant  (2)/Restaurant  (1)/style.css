@@ -1,0 +1,194 @@
+
+.nowbar{
+  border:1px solid black;
+  height: 50px;
+  color: white;
+  padding-top: 10px;
+  background-color: black ;
+   
+
+}
+
+.home{
+  
+   
+color: white;
+  padding: 80px;
+  font-size: xx-large;
+  text-decoration: none;
+  
+}
+
+.poster{
+  text-align: center;
+  background-image: url(/img/hero.jpeg) ;
+  background-size: cover ;
+  color: white;
+ font-size: larger;
+ margin:-10px 0px
+
+}
+.name{
+  font-family:   cursive
+}
+
+
+.heading{
+  color: red;
+  text-align: center;
+  margin: 50px 0px;
+  
+}
+.photo{ display: flex;
+  justify-content: space-evenly;
+ 
+  
+}
+.photos{
+  padding: 10px;
+
+}
+.photos:hover{
+  transform: scale(0.9);
+}
+
+.order{
+  border:1px solid black;
+  width:200px; 
+  text-align: center;
+  border-radius: 20px; 
+  background-color: green;
+ margin: 50px 530px;
+ padding: 20px;
+text-decoration: none;
+}
+.view{
+  text-decoration: none;
+}
+.information{
+  border: 1px solid black;
+  height: auto ;
+  width: 100%;
+  background-color: black;
+  border-radius: 20px;
+  font-size: large;
+}
+.pranav{
+  border: 1px solid black;
+  border-radius: 20px;
+  height: auto;
+  width: 500px;
+  background-color: rgb(10, 10, 35);
+  margin: 40px 40px;
+
+}
+.pranav1{border: 1px solid black;
+  border-radius: 20px;
+  height: auto;
+  width: 500px;
+  background-color: rgb(10, 10, 35);
+  margin-left: 720px;
+
+}
+.pranav2{
+  border: 1px solid black;
+  border-radius: 20px;
+  height: auto;
+  width: 500px;
+  background-color: rgb(10, 10, 35);
+  margin: 40px 40px;
+
+}
+.pranav3{border: 1px solid black;
+  border-radius: 20px;
+  height: auto;
+  width: 500px;
+  background-color: rgb(10, 10, 35);
+  margin-left: 720px;
+  margin-bottom: 30px;
+
+
+}
+.h1{
+  color: white;
+  
+
+}
+
+.service{
+  border: 1px solid brown;
+  height: auto;
+  width: 200px;
+  background-color: black;
+  border-radius: 20px;
+
+}
+.service:hover{
+  transform: scale(0.9);
+}
+.midd{
+  text-align: center;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+.align{
+  text-align: center;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+.location{
+  color: Black;
+  font-family: bold;
+  text-align: center;
+}
+.map{
+  width: 100%;
+}
+.footer{
+  height: auto;
+  width: 100%;
+  background-color: black;
+  border-radius: 20px;
+}
+.color{
+  color:white
+}
+.info{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center
+}
+@media only screen and (max-width:600px) {
+  .poster{
+    width: 610px;
+  }
+  .nowbar{
+    width:610px;
+  }
+  .now{
+    font-size: smaller;
+    display: flex;
+    text-align: center;
+  }
+  .photos{
+    width: 100%;
+    margin: 0px 95px
+  }
+  .order{
+    margin: 50%
+  }
+  
+  .footer{
+    width: 617px;}
+    
+   .map{
+     width 610px;
+     margin:100px
+   } 
+    
+
+  
+}
+
