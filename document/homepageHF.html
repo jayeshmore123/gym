@@ -6,6 +6,42 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+<style>
+  .display{
+    display: flex;
+  }
+  .margin{
+    margin-top: 60px;
+  }
+  .right{
+    margin-right: 70px;
+  }
+  .row{
+   margin: 20px;
+    
+  }
+  .footer{
+    border: solid 0.1px black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    color:black;
+    border-radius: 20px;
+
+    
+  }
+  .card:hover{
+    transform: scale(0.9);
+    transition: 2s;
+  }
+  .height{
+    height: 200px;
+    width: 500px;
+
+  }
+</style>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <nav class="navbar navbar-expand-lg navbar-light bg-danger">
@@ -38,15 +74,208 @@
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <!-- <input class="form-control me-2" type="search" placeholder="search" aria-label="Search"> -->
+              <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
             </form>
           </div>
         </div>
       </nav>
   
-       <img src="./bike.jpg"/>
+       <img height="600px" src="./bike.jpg"/> 
+     <h1 align="center">Select colour and variant to buy</h1>
+     
 
+     <div class="card-group">
+        <div class="card">
+          <img src="./bike3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">HF DELUXE </h5>
+            <p class="card-text">9 hero hf deluxe</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"></small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./bike2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">HF DELUXE</h5>
+            <p class="card-text">Hero hf deluxe eco</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"></small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./bike1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">HF DELUXE</h5>
+            <p class="card-text">Hero hf deluxe i3s </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+     <div class="display">   
+      <div>  
+    <img src="./hf-deluxe.png" alt="">
+      </div>
+      <div>
+    <h1 align="center">HF DELUXE PRICE</h1>
+    <h2>Variant</h2>
+    <h3 class="right">HF deluxe Black ans accent</h3>
+    <h3 class="right">HF deluxe drum brake kick start</h3>
+    <h3 class="right">HF deluxe  drum brake self start</h3>
+    <h3 class="right">HF deluxe i3s drum brake self start
+
+    </h3>
+      </div>
+      <div class="margin">
+      <h2 >Ex-Showroom Price</h2>
+      <h3 >₹ 59,998</h3>
+      <h3>₹ 61,870</h3>
+      <h3>₹ 67,518</h3>
+      <h3>₹ 69,018</h3>
+
+    </div>
+ </div>
+<button style="color: red;">BUY NOW</button>
+<div class="card-group">
+  <div class="card">
+    <img class="height" src="https://www.heromotocorp.com/content/dam/hero-commerce/image/Book-Your-2-Wheeler-update.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Book your two-wheeler</h5>
+      <p class="card-text">Effortlessly book your two-wheeler online, quick and convenient!</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="height" src="https://www.heromotocorp.com/content/dam/hero-commerce/image/DealerShip-update.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Visit dealership</h5>
+      <p class="card-text">Visit our dealership for a firsthand look and expert guidance.
+
+      </p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.heromotocorp.com/content/dam/hero-commerce/image/Pick-Your-Vehicle-update.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Pick your vehicle
+      </h5>
+      <p class="card-text">It's time to ride! Pick up your vehicle from the dealership.
+
+      </p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+</div>
+
+  <h1 align="center">BLOGS</h1>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="https://www.heromotocorp.com/content/dam/hero-commerce/in/en/products/practical/content-fragments/hf-deluxe/assets/blogs/product/product-01.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> 5 FACTOR THAT MAKE THE HERO HF DELUXE A TRUE COMMUTING CHAMPION </h5>
+        <p class="card-text">the daily commute can be a drag trafic jams,rising fuel cost ,and uncomfotable rides can turn that short trip into a mejor headache. </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.heromotocorp.com/content/dam/hero-commerce/in/en/products/practical/content-fragments/hf-deluxe/assets/blogs/product/product-02.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">EVERTHING YOU NEED TO GO KNOW ABOUT THE SAFETY FEATURES ON THE HF DELUXE </h5>
+        <p class="card-text">in a category know for budget-friendly options, the hero hf deluxe goes beyond just alow price tag. it focuses on rider safety with a combination of essential feature and innovative technology. </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.heromotocorp.com/content/dam/hero-commerce/in/en/products/practical/content-fragments/hf-deluxe/assets/blogs/product/product-03.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">THE HEROHF DELUXE PRICE: REDEFINNING </h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="col"> -->
+    <!-- <div class="card"> -->
+      <!-- <img src="" class="card-img-top" alt="..."> -->
+      <!-- <div class="card-body"> -->
+        <!-- <h5 class="card-title">Card title</h5> -->
+        <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <!-- <h5 class="card-title">HIMGIRL HERO AUTOMOBILES PVT.LTD</h5> -->
+        <p class="card-text"></p>
+        <h5 align="center">HIMGIRL HERO AUTOMOBILES PVT.LTD</h5>
+        <h6 align="center">9284177994</h6>
+        <h6 align="center">jayeshmore84676@gmail.com</h6>
+        <h6 align="center">pune,maharastra  414409</h6>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <!-- <h5 class="card-title">SINGLE AUTONEEDS</h5> -->
+        <p class="card-text"></p>
+        <h5 align="center">SINGLE AUTONEEDS</h5>
+        <H6 align="center">8995678346</H6>
+        <h6 align="center">autoneed@gmail.com</h6>
+        <h6 align="center">new delhi,415706</h6>
+        
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121059.04711156077!2d73.78056543154413!3d18.524598599502376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1722409817415!5m2!1sen!2sin" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<footer>
+  <div class="footer">
+    <div class="foot">
+      <h1>ABOUT US</h1>
+      <h3>Board of  Directors</h3>
+      <h3>Leadership Team</h3>
+      <h3>Key Policies</h3>
+      <h3>Sustainability</h3>
+      <!-- <h3>carries</h3> -->
+      <!-- <h3>Testimonials</h3> -->
+      <!-- <h3>press room</h3> -->
+
+    </div>
+    <div >
+      <h1>MY HERO</h1>
+      <h3>Owners Manual </h3>
+      <!-- <span>9087788909</span> -->
+      <h3>Two Wheelers Tips </h3>
+      <!-- <span>gym@gmail.com</span> -->
+      
+    </div>
+    <div>
+      <h1>Address</h1>
+      <h3>Zenda chauk,</h3>
+      <h3>Shrigonda-413701</h3>
+    </div>
+
+    </div>
+  </div>
+  </footer>
 
 </body>
 </html>
